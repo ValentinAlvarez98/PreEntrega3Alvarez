@@ -4,39 +4,39 @@
   font-family: "Hind-Regular";
   src: url(../assets/fonts/Hind-Regular.ttf); }
 
-body {
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%; }
-
 h1 {
   font-family: Hind-Bold !important;
   color: #DEE2E6; }
 
 h2 {
-  color: #212529;
-  font-family: Hind-Bold !important; }
-
-h3 {
-  color: #212529;
-  font-family: Hind-Bold !important; }
+  font-family: Hind-Bold !important;
+  color: #212529; }
 
 h3:hover {
   text-decoration: underline; }
 
-h4 {
-  color: #212529;
-  font-family: Hind-Bold; }
+h3 {
+  font-family: Hind-Bold !important;
+  color: #212529; }
 
 h4:hover {
   text-decoration: underline; }
 
-h5 {
-  color: #212529;
-  font-family: Hind-Bold; }
+h4 {
+  font-family: Hind-Bold !important;
+  color: #212529; }
 
 h5:hover {
   text-decoration: underline; }
+
+h5 {
+  font-family: Hind-Bold !important;
+  color: #212529; }
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%; }
 
 .underlineNoticias:hover {
   text-decoration: none; }

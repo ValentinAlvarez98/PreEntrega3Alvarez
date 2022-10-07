@@ -1,0 +1,37 @@
+@for $i from 1 through 5 {
+
+    @if ($i==1) {
+
+        $fuenteTitulos: map-get($fuenteHind, "bold") !important;
+        $colorTitulos: map-get($paletaDeColores, "color-logo");
+
+    }
+
+    @else if ($i==2) {
+
+        $fuenteTitulos: map-get($fuenteHind, "bold") !important;
+        $colorTitulos: map-get($paletaDeColores, "color-titulos");
+
+    }
+
+    @else {
+
+        $fuenteTitulos: map-get($fuenteHind, "bold") !important;
+        $colorTitulos: map-get($paletaDeColores, "color-titulos");
+
+        h#{$i}:hover {
+
+            text-decoration: underline;
+
+        }
+
+    }
+
+    h#{$i} {
+
+        font-family: $fuenteTitulos;
+        color: $colorTitulos;
+
+    }
+
+}
