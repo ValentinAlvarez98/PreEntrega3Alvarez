@@ -1,0 +1,175 @@
+
+@font-face {
+    font-family: "Hind-Bold";
+    src: url(../assets/fonts/Hind-Bold.ttf);
+    font-family: "Hind-Regular";
+    src: url(../assets/fonts/Hind-Regular.ttf);
+}
+
+body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-family: Hind-Bold !important;
+    color: #DEE2E6;
+}
+
+h2{
+    color:#212529;
+    font-family: Hind-Bold !important;
+}
+
+h3{
+    color:#212529;
+    font-family: Hind-Bold !important;
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+
+h4{
+    color:#212529;
+    font-family: Hind-Bold;
+}
+
+h4:hover{
+    text-decoration: underline;
+}
+
+h5{
+    color:#212529;
+    font-family: Hind-Bold;
+}
+
+h5:hover{
+    text-decoration: underline;
+}
+
+.underlineNoticias:hover{
+    text-decoration: none;
+}
+
+p{
+    font-family: Hind-Regular;
+    font-size: 1.12rem;
+    color:#555459;
+}
+
+#headerUno{
+    background-color: #343A40;
+}
+
+.listaNavUno{
+    padding-left: 3vw;
+}
+
+.textoHeaderTres{
+    color: rgb(230, 230, 230);
+    font-family: Hind-Regular;
+}
+
+footer{
+    height: 5vh;
+}
+
+.textoFooter{
+    color: rgb(160, 160, 160);
+}
+
+
+img:hover{
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.imgNoticias:hover{
+    animation:none;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+@media (max-width: 1399.98px) { 
+
+
+ }
+
+@media (max-width: 1199.98px) { 
+
+
+ }
+
+@media (max-width: 991.98px) { 
+
+    .listaNavUno{
+        padding-left: 0vw;
+    }
+
+    .headerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        height: 10vh;
+    }
+
+    .footerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+ }
+
+@media (max-width: 767.98px) { 
+
+    .headerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        height: 10vh;
+    }
+
+    .footerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnBuscar{
+        display:none !important;
+    }
+
+ }
+
+@media (max-width: 575.98px) { 
+
+    .headerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        height: 10vh;
+    }
+
+    .footerMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnBuscar{
+        display:none !important;
+    }
+    
+ }
+
