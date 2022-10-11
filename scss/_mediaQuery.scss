@@ -85,7 +85,7 @@
 
         p {
             font-family: map-get($fuenteHind, "regular");
-            font-size: 1rem+0.12rem;
+            font-size: $rem+2px;
             color: map-get($paletaDeColores, "color-parrafos");
         }
 
