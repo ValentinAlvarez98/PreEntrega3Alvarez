@@ -1,6 +1,9 @@
 $fuenteTitulos:null;
 $colorTitulos:null;
 $decoracionTitulos:null;
+$vista: ("vistaDesktopSm": desktopSm,
+    "vistaTablet":tablet,
+    "vistaMobile":mobile, );
 
 $paletaDeColores: ("color-logo": #DEE2E6,
     "color-titulos": #212529,
