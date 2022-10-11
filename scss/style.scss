@@ -1,7 +1,16 @@
 @import './variables';
 @import './fuentes';
-@import './titulos';
 
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+@import './headers';
+@import './titulos';
+@import './main';
+@import './footer';
 
 @import './mediaQuery';
 @include mediaQuery(map-get($vista, "vistaDesktop"));

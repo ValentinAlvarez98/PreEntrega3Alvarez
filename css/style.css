@@ -4,6 +4,11 @@
   font-family: "Hind-Regular";
   src: url(../assets/fonts/Hind-Regular.ttf); }
 
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%; }
+
 h1 {
   font-family: Hind-Bold !important;
   color: #DEE2E6; }
@@ -33,31 +38,26 @@ h5 {
   font-family: Hind-Bold !important;
   color: #212529; }
 
-body {
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%; }
-
-.underlineNoticias:hover {
-  text-decoration: none; }
-
 p {
   font-family: Hind-Regular;
   font-size: 1.12rem;
   color: #555459; }
 
+a {
+  text-decoration: none;
+  outline: none; }
+
 #headerUno {
   background-color: #343A40; }
 
-.listaNavUno {
+#headerDos div nav div div ul .listaNavUno {
   padding-left: 3vw; }
 
-.textoHeaderTres {
-  color: #e6e6e6;
+.headerTres nav div .textoHeaderTres {
   font-family: Hind-Regular; }
 
-footer {
-  height: 5vh; }
+.textoHeaderTres {
+  color: #e6e6e6; }
 
 .textoFooter {
   color: #a0a0a0; }
@@ -66,12 +66,14 @@ img:hover {
   animation: pulse;
   animation-duration: 1s; }
 
-.imgNoticias:hover {
+main div section div .imgNoticias:hover {
   animation: none; }
 
-a {
-  text-decoration: none;
-  outline: none; }
+main div section div div .underlineNoticias:hover {
+  text-decoration: none; }
+
+footer {
+  height: 10vh; }
 
 @media only screen and (max-width: 991.98px) {
   .headerMobile {

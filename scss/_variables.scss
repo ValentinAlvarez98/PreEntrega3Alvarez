@@ -1,6 +1,11 @@
 $fuenteTitulos:null;
 $colorTitulos:null;
 $decoracionTitulos:null;
+$colorTextos:null;
+$fuenteTextos:null;
+
+$alturaFooter:5vh;
+
 $vista: ("vistaDesktopSm": desktopSm,
     "vistaTablet":tablet,
     "vistaMobile":mobile, );
@@ -14,4 +19,8 @@ $paletaDeColores: ("color-logo": #DEE2E6,
 );
 
 $fuenteHind: ("bold": Hind-Bold,
-    "regular": Hind-Regular, );
+    "regular": Hind-Regular,
+);
+
+$clasesTextos: (textoHeaderTres: (map-get($paletaDeColores, "color-texto-headerTres")),
+    textoFooter: (map-get($paletaDeColores, "color-texto-footer")));
