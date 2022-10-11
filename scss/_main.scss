@@ -1,0 +1,27 @@
+@mixin main {
+    img:hover {
+        animation: pulse;
+        animation-duration: 1s;
+    }
+
+    main {
+        div {
+            section {
+                div {
+                    .imgNoticias:hover {
+                        animation: none;
+                    }
+                }
+
+                div {
+                    div {
+                        .underlineNoticias:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
