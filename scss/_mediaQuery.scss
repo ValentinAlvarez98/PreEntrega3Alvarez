@@ -84,7 +84,7 @@
     @else {
 
         p {
-            font-family: map-get($fuenteHind, "regular");
+            font-family: map-get($fuentes, "regular");
             font-size: $rem+2px;
             color: map-get($paletaDeColores, "color-parrafos");
         }

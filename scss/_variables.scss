@@ -19,8 +19,9 @@ $paletaDeColores: ("color-logo": #DEE2E6,
     "color-texto-footer": rgb(160, 160, 160),
 );
 
-$fuenteHind: ("bold": Hind-Bold,
+$fuentes: ("bold": Hind-Bold,
     "regular": Hind-Regular,
+    "hachi": Hachi-Maru-Pop,
 );
 
 $clasesTextos: (textoHeaderTres: (map-get($paletaDeColores, "color-texto-headerTres")),

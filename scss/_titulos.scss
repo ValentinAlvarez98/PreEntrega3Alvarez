@@ -2,21 +2,21 @@
 
     @if ($i==1) {
 
-        $fuenteTitulos: map-get($fuenteHind, "bold") !important;
+        $fuenteTitulos: map-get($fuentes, "bold") !important;
         $colorTitulos: map-get($paletaDeColores, "color-logo");
 
     }
 
     @else if ($i==2) {
 
-        $fuenteTitulos: map-get($fuenteHind, "bold") !important;
+        $fuenteTitulos: map-get($fuentes, "bold") !important;
         $colorTitulos: map-get($paletaDeColores, "color-titulos");
 
     }
 
     @else {
 
-        $fuenteTitulos: map-get($fuenteHind, "bold") !important;
+        $fuenteTitulos: map-get($fuentes, "bold") !important;
         $colorTitulos: map-get($paletaDeColores, "color-titulos");
 
         h#{$i}:hover {
