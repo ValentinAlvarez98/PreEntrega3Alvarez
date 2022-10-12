@@ -9,9 +9,14 @@
                 div {
                     div {
                         ul {
+                            li {
+                                font-size: ($rem/0.95);
+                            }
+
                             .listaNavUno {
                                 padding-left: 3vw;
                             }
+
                         }
                     }
                 }
