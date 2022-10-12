@@ -1,0 +1,42 @@
+@mixin compartir {
+
+    section {
+        .compartir {
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                li {
+
+                    .twitter {
+                        color: #1d9bf0;
+                    }
+
+                    .facebook {
+                        color: #1877f2;
+                    }
+
+                    .whatsapp {
+                        color: #00e676;
+                    }
+
+                    .instagram {
+                        color: #ea0c5f
+                    }
+
+                    .fa-shake {
+                        animation-duration: 0s;
+                    }
+
+                    .fa-shake:hover {
+                        animation-duration: 2s;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
