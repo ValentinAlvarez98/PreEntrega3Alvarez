@@ -72,6 +72,26 @@ main div section div .imgNoticias:hover {
 main div section div div .underlineNoticias:hover {
   text-decoration: none; }
 
+main div div div .underlineNoticias:hover {
+  text-decoration: none; }
+
+section .compartir ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  section .compartir ul li .twitter {
+    color: #1d9bf0; }
+  section .compartir ul li .facebook {
+    color: #1877f2; }
+  section .compartir ul li .whatsapp {
+    color: #00e676; }
+  section .compartir ul li .instagram {
+    color: #ea0c5f; }
+  section .compartir ul li .fa-shake {
+    animation-duration: 0s; }
+  section .compartir ul li .fa-shake:hover {
+    animation-duration: 2s; }
+
 footer {
   height: 10vh; }
 
