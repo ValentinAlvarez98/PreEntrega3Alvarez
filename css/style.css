@@ -50,6 +50,9 @@ a {
 #headerUno {
   background-color: #343A40; }
 
+#headerDos div nav div div ul li {
+  font-size: 16.84211px; }
+
 #headerDos div nav div div ul .listaNavUno {
   padding-left: 3vw; }
 
@@ -75,6 +78,9 @@ main div section div div .underlineNoticias:hover {
 main div div div .underlineNoticias:hover {
   text-decoration: none; }
 
+main div div div .imgNoticias:hover {
+  animation: none; }
+
 section .compartir ul {
   display: flex;
   justify-content: space-between;
@@ -94,6 +100,10 @@ section .compartir ul {
 
 footer {
   height: 10vh; }
+  footer nav div ul li a {
+    font-size: 17.77778px; }
+  footer nav div ul li .errorFooter {
+    font-size: 15.2px; }
 
 @media only screen and (max-width: 991.98px) {
   .headerMobile {
@@ -134,3 +144,6 @@ footer {
     padding-left: 0vw; }
   .btnBuscar {
     display: none !important; } }
+
+.noEncontrada {
+  background-color: #343a40; }
