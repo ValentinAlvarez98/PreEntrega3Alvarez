@@ -8,9 +8,12 @@
 
     @if $vista==desktopSm {
         @media only screen and (max-width:991.98px) {
-            .headerMobile {
-                @include flexbox($posicionamiento:col);
+            header {
+                .headerMobile {
+                    @include flexbox($posicionamiento:col);
+                }
             }
+
 
             footer {
                 height: $alturaFooter*2;
@@ -22,17 +25,32 @@
                 }
             }
 
-            .listaNavUno {
-                padding-left: 0vw;
+            #headerDos {
+                div {
+                    nav {
+                        div {
+                            div {
+                                ul {
+                                    .listaNavUno {
+                                        padding-left: 0vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
+
 
         }
     }
 
     @else if $vista==tablet {
         @media only screen and (max-width:767.98px) {
-            .headerMobile {
-                @include flexbox($posicionamiento:col);
+            header {
+                .headerMobile {
+                    @include flexbox($posicionamiento:col);
+                }
             }
 
             footer {
@@ -45,8 +63,20 @@
                 }
             }
 
-            .listaNavUno {
-                padding-left: 0vw;
+            #headerDos {
+                div {
+                    nav {
+                        div {
+                            div {
+                                ul {
+                                    .listaNavUno {
+                                        padding-left: 0vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             .btnBuscar {
@@ -57,9 +87,12 @@
 
     @else if $vista==mobile {
         @media only screen and (max-width:575.98px) {
-            .headerMobile {
-                @include flexbox($posicionamiento:col);
+            header {
+                .headerMobile {
+                    @include flexbox($posicionamiento:col);
+                }
             }
+
 
             footer {
                 height: $alturaFooter*2;
@@ -71,8 +104,20 @@
                 }
             }
 
-            .listaNavUno {
-                padding-left: 0vw;
+            #headerDos {
+                div {
+                    nav {
+                        div {
+                            div {
+                                ul {
+                                    .listaNavUno {
+                                        padding-left: 0vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
 
             .btnBuscar {
