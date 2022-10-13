@@ -106,7 +106,7 @@ footer {
     font-size: 15.2px; }
 
 @media only screen and (max-width: 991.98px) {
-  .headerMobile {
+  header .headerMobile {
     display: flex;
     justify-content: center; }
   footer {
@@ -114,11 +114,11 @@ footer {
     footer nav div {
       display: flex;
       justify-content: center; }
-  .listaNavUno {
+  #headerDos div nav div div ul .listaNavUno {
     padding-left: 0vw; } }
 
 @media only screen and (max-width: 767.98px) {
-  .headerMobile {
+  header .headerMobile {
     display: flex;
     justify-content: center; }
   footer {
@@ -126,13 +126,13 @@ footer {
     footer nav div {
       display: flex;
       justify-content: center; }
-  .listaNavUno {
+  #headerDos div nav div div ul .listaNavUno {
     padding-left: 0vw; }
   .btnBuscar {
     display: none !important; } }
 
 @media only screen and (max-width: 575.98px) {
-  .headerMobile {
+  header .headerMobile {
     display: flex;
     justify-content: center; }
   footer {
@@ -140,7 +140,7 @@ footer {
     footer nav div {
       display: flex;
       justify-content: center; }
-  .listaNavUno {
+  #headerDos div nav div div ul .listaNavUno {
     padding-left: 0vw; }
   .btnBuscar {
     display: none !important; } }
